@@ -1,0 +1,84 @@
+@charset "utf-8";
+/* CSS Document */
+p{
+	text-align: center;
+	font-family: Verdana, sans-serif;
+} 
+a img{
+	float: left;
+	display: block;
+	margin-top: 75px;
+	margin-left: 10px;
+}
+#home{
+	background-color: #f0f0f0;
+}
+
+
+ 
+     /*    header    */
+.header{
+	background-image: url(../image/header.jpg);
+	background-repeat: no-repeat;
+	background-size: 100%;
+	background-position: center;
+	height: 453px;
+}
+.header h1{
+	font-family: 'Special Elite', cursive;
+	font-size: 170px;
+	color: rgba(255,255,255,1.00);
+	text-shadow: 5px 5px 10px rgba(0,0,0,1.00);
+	text-align: center;
+	padding-top: 0px;
+	line-height: 140px;
+}
+.header h1 span{
+	font-size: 120px;
+}
+.header h1 span.family{
+	margin-left: 25%;
+}
+       /*    616     */
+
+img.n616Logo{
+	padding: 10px 15px;
+	margin-left: 40px;
+}
+.n616 p{
+	color: #474747;
+	padding-top: 25px;
+}
+.n616{
+	background-color: white;
+}
+
+		/*    eonic     */
+
+.eonic{
+	background-color: #144A60;
+	background-image:-webkit-linear-gradient(top left,#1d6686 0, #023953 100%);
+	background-image:-o-linear-gradient(top left,#1d6686,#023953 100%);
+	background-image:-webkit-gradient(linear,top left,right bottom,from(#1d6686),to(#023953));
+	background-image:linear-gradient(top left,#1d6686 0,#023953 100%);
+}
+.eonic p{
+	color: #C8C8C8;
+	padding-top: 25px;
+}
+.eonicLogo{
+	padding: 10px 0;
+}
+				/*   footer   */
+.footer a{
+	padding: 13px 0 5px 0;
+	display: block;
+	text-align: left;
+	color: #474747;
+}
+.footer p{
+	text-align: right;
+}
+.footer{
+	background-color: white;
+}				
