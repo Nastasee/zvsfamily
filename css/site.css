@@ -4,17 +4,23 @@ p{
 	text-align: center;
 	font-family: Verdana, sans-serif;
 } 
-a img{
+#home a img{
 	float: left;
 	display: block;
-	margin-top: 75px;
+	margin-top: 65px;
 	margin-left: 10px;
+	padding: 0;
 }
 #home{
 	background-color: #f0f0f0;
 }
-
-
+.phone{
+	display: none;
+	font-family: 'Special Elite', cursive;
+	font-size: 65px;
+	margin-top: 0px;
+	margin-bottom: 0px;
+}
  
      /*    header    */
 .header{
@@ -32,6 +38,7 @@ a img{
 	text-align: center;
 	padding-top: 0px;
 	line-height: 140px;
+	margin-top: 90px;
 }
 .header h1 span{
 	font-size: 120px;
@@ -41,13 +48,14 @@ a img{
 }
        /*    616     */
 
-img.n616Logo{
-	padding: 10px 15px;
-	margin-left: 40px;
+.n616Logo{
+	padding: 10px 0;
+	max-width: 90%;
+	margin-left: 50px;
 }
 .n616 p{
 	color: #474747;
-	padding-top: 25px;
+	padding-top: 15px;
 }
 .n616{
 	background-color: white;
@@ -64,14 +72,15 @@ img.n616Logo{
 }
 .eonic p{
 	color: #C8C8C8;
-	padding-top: 25px;
+	padding-top: 20px;
 }
 .eonicLogo{
 	padding: 10px 0;
+	max-width: 90%;
 }
 				/*   footer   */
 .footer a{
-	padding: 13px 0 5px 0;
+	padding: 15px 0 5px 0;
 	display: block;
 	text-align: left;
 	color: #474747;
@@ -82,3 +91,124 @@ img.n616Logo{
 .footer{
 	background-color: white;
 }				
+         /*      mediaqueries      */
+@media (max-width: 1200px) {
+.header{
+	height: auto;
+}
+.header h1{
+	margin: 65px;
+	font-size: 150px;
+	line-height: 120px;
+}
+.hideMe{
+	display: none;
+}
+#home a img{
+	margin-top: 50px;
+}
+.header h1 span{
+	font-size: 110px;
+}
+#home a img{
+	margin-top: 60px;
+	margin-left: 5px;
+	padding: 0;
+}
+}
+@media (max-width: 992px) {
+.header h1{
+	margin: 60px 0 20px 0;
+	font-size: 120px;
+	line-height: 100px;
+}
+.header h1 span{
+	font-size: 90px;
+}
+.hideMeToo{
+	display: none;
+}
+.eonicLogo{
+	min-width: 470px;
+}
+#home a img{
+	max-width: 70%;
+	margin-top: 50px;
+	margin-left: 30px;
+	padding: 0;
+}
+}
+@media (max-width: 768px) {
+.hideLogo{
+	display: none;
+}
+.phone{
+	display: block;
+}
+#home a img{
+	max-width: 95px;
+	margin-top: 30px;
+	margin-bottom: 25px;
+	margin-left: 0;
+	float: none;
+	display: inline-block;
+}
+#home .facebook{
+	margin-left: 90px;
+	margin-right: 90px;
+}
+#home a{
+	}
+.adapt{
+	width: 505px;
+	margin: 10px auto;
+}
+.header{
+	background-size: cover;
+}
+}
+@media (max-width: 520px){
+.header h1{
+	margin: 60px 0 20px 0;
+	font-size: 90px;
+	line-height: 100px;
+}
+.header h1 span{
+	font-size: 70px;
+}
+.phone{
+	font-size: 50px;
+}
+#home .facebook{
+	margin-left: 50px;
+	margin-right: 50px;
+}
+.adapt{
+	width: 395px;
+}	
+#home a img{
+	max-width: 85px;
+}
+}
+@media (max-width: 405px){
+#home a img{
+	max-width: 60px;
+}
+.header h1{
+	margin: 30px 0 20px 0;
+	font-size: 70px;
+}
+.header h1 span{
+	font-size: 60px;
+}
+.adapt{
+	width: 300px;
+}
+#home .facebook{
+	margin-left: 40px;
+	margin-right: 40px;
+}
+.header h1 span.family{
+	margin-left: 15%;
+}
+}
